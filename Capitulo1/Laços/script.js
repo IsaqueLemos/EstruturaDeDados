@@ -1,4 +1,4 @@
-/* Usando as instruções de repetição FOR e WHILE */
+/* Estruturas de Repetição: For e While e Do-While */
 
 // FOR
 for (let i = 0; i < 10; i++) { // recebe um valor ; compara ; incrementa/decrementa

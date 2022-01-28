@@ -1,4 +1,4 @@
-/* Estrutura - IF e ELSE */
+/* Estruturas Condicionais: If-Else e Switch-Case */
 
 // Usando apenas IF
 var num = 1;

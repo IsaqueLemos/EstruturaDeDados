@@ -1,4 +1,4 @@
-/* Uso das Funções */
+/* Funções */
 
 // Sintaxe Básica
 function sayHello() {
