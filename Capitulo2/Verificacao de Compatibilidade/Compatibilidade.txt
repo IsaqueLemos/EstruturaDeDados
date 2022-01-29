@@ -1,0 +1,7 @@
+Verificação de compatibilidade das funcionalidades
+
+- ES2015 (ES6)
+    : http://kangax.github.io/compat-table/es6/
+
+- ES2016+
+    : http://kangax.github.io/compat-table/es2016plus/
