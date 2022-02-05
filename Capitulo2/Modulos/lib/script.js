@@ -17,7 +17,7 @@
 /* Formas diferentes de importar funções */
 import * as area from './CalcArea';
 console.log(area.circle(2));
-console.log(area.square(2));
+console.log(area.sqaure(2));
 
 import Book from './Book';
 const myBook = new Book('1984');
