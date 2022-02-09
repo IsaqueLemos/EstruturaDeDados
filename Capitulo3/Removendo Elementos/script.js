@@ -33,3 +33,8 @@ Array.prototype.removeFirstPosition = function() {
 }
 numbers = numbers.removeFirstPosition();
 console.log(numbers, 'Length:', numbers.length);
+
+
+/* Utilizando o método shift */
+numbers.shift();
+console.log(numbers, 'Length:', numbers.length);
