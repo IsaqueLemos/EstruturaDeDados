@@ -21,3 +21,8 @@ Array.prototype.insertFirstPosition = function(value) { // OBS: Arrow Functions 
 }
 numbers.insertFirstPosition(-1);
 console.log(numbers);
+
+/* Utilizando o método unshift */
+numbers.unshift(-2);
+numbers.unshift(-4, -3);
+console.log(numbers);
