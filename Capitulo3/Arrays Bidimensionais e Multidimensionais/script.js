@@ -6,7 +6,7 @@ let averageTempDay2 = [81, 79, 75, 75, 73, 73];
 let averageTemp = [];
 averageTemp[0] = [72, 75, 79, 79, 81, 81];
 averageTemp[1] = [81, 79, 75, 75, 73, 73];
-console.table(averageTemp);
+console.log(averageTemp);
 
 // Outra forma
 // dia 1
@@ -26,4 +26,17 @@ averageTemp[1][2] = 75;
 averageTemp[1][3] = 75;
 averageTemp[1][4] = 73;
 averageTemp[1][5] = 73;
-console.table(averageTemp);
+console.log(averageTemp);
+
+/* Iterando pelos elementos de Arrays Bidimensionais */
+// Criando uma função que percorre todos os elementos de uma array
+function printMatrix(myMatrix) {
+    for (let i = 0; i < myMatrix.length; i++) {
+        for (let j = 0; j < myMatrix[i].length; j++) {
+            console.log(myMatrix[i][j]);
+        }
+    }
+}
+printMatrix(averageTemp)
+// Outra forma de saida de um array bidimensional é utilizando o console.table
+console.table(averageTemp)
