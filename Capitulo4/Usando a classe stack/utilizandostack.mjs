@@ -26,3 +26,4 @@ stack.push(15)
 stack.pop()
 stack.pop()
 console.log(stack);
+console.log(stack.items.toString());
