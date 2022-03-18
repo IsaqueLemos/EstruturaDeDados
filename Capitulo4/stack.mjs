@@ -10,4 +10,12 @@ export default class Stack {
         this.items[this.count] = element;
         this.count++;
     }
+
+    size() {
+        return this.count;
+    }
+
+    isEmpty() {
+        return this.count === 0;
+    }
 }
