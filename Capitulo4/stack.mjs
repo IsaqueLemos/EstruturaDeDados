@@ -27,8 +27,19 @@ export default class Stack {
         this.count--;
         const result = this.items[this.count];
         delete this.items[this.count];
-        return result
+        return result;
     }
 
-    
+    peek() {
+        if (this.isEmpty()) {
+            return undefined;
+        }
+
+        return this.items[this.count - 1];
+    }
+
+    clear() {
+        this.items = {};
+        this.count = 0;
+    }
 }
