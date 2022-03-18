@@ -1,7 +1,7 @@
 /* Criando uma classe Stack baseada em array */
 // Stack = Pilha
 
-class Stack {
+export default class Stack {
     constructor() {
         this.items = [];
     }
@@ -30,6 +30,7 @@ class Stack {
         this.items = [];
     }
 }
+
 
 /* Como a pilha obedece ao princípio LIFO, limitaremos as funcionalidades que estarão
 disponíveis à inserção e remoção de elementos */
